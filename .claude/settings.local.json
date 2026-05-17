@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"/Volumes/Ocean Drive/Raag Guru/SwaraSlam/landing-page\")",
+      "Read(//Volumes/Ocean Drive/Raag Guru/SwaraSlam/landing-page/**)",
+      "Bash(ls -la \"/Volumes/Ocean Drive/Raag Guru/\" 2>/dev/null || ls -la \"/Volumes/Ocean Drive/raag-guru/\")",
+      "Read(//Volumes/Ocean Drive/raag-guru/**)",
+      "Bash(npm run *)",
+      "Bash(npm install *)"
+    ]
+  }
+}
